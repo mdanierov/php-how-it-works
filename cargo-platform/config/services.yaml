@@ -1,0 +1,20 @@
+parameters:
+  locale: 'ru'
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    bind:
+      string $defaultCurrency: 'EUR'
+
+  App\:
+    resource: '../src/'
+    exclude:
+      - '../src/DependencyInjection/'
+      - '../src/Entity/'
+      - '../src/Kernel.php'
+
+  App\Service\PricingService:
+    arguments:
+      $defaultCurrency: '%env(default:EUR:APP_CURRENCY)%'

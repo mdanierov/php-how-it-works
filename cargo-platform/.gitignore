@@ -1,0 +1,14 @@
+# Symfony
+/var/
+/vendor/
+/.env.local
+/.env.*.local
+/public/build/
+/node_modules/
+/.idea/
+/.vscode/
+/.phpunit.cache/
+/phpunit.xml
+/config/jwt/*.pem
+/public/uploads/
+/var/private_uploads/

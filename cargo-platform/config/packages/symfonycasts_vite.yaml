@@ -1,0 +1,5 @@
+symfonycasts_vite:
+  script_attributes:
+    defer: true
+  preload:
+    fonts: true
