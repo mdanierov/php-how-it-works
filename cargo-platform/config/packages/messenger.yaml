@@ -1,0 +1,6 @@
+framework:
+  messenger:
+    transports:
+      async: doctrine://default?queue_name=messages
+    routing:
+      'App\\Message\\*': async
