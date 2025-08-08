@@ -25,7 +25,6 @@
     "doctrine/orm": "^2.16",
     "doctrine/doctrine-bundle": "^2.11",
     "doctrine/doctrine-migrations-bundle": "^3.4",
-    "symfony/orm-pack": "^2.3",
     "symfony/messenger": "^6.4",
     "symfony/doctrine-messenger": "^6.4",
     "lexik/jwt-authentication-bundle": "^2.20",
@@ -33,7 +32,6 @@
     "vich/uploader-bundle": "^2.3",
     "liip/imagine-bundle": "^2.10",
     "guzzlehttp/guzzle": "^7.8",
-    "symfonycasts/vite-bundle": "^1.0",
     "nelmio/cors-bundle": "^2.4",
     "symfony/flex": "^2.4"
   },
